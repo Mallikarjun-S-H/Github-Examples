@@ -1,6 +1,8 @@
+name: scheduler
+
 on:
   schedule:
-    - cron: '* * * * *'
+    - cron: '*/2 * * * *'
 
 jobs:
   hello_world:
