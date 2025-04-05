@@ -2,7 +2,7 @@ name: webflow commands
 
 on: ['push']
 
-job:
+jobs:
   webflow-cmd:
       runs-on: ubuntu-latest 
       steps:
