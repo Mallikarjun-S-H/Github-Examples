@@ -8,10 +8,10 @@ jobs:
       steps:
        - name: "group messages"
          run: |
-          echo: "::group::My group Messages"
-          echo: "Messages 1"
-          echo: "Messages 2"
-          echo: "Messages 3"
-          echo: "Messages 4"
-          echo: "::endgroup::"
+          echo "::group::My group Messages"
+          echo "Messages 1"
+          echo "Messages 2"
+          echo "Messages 3"
+          echo "Messages 4"
+          echo "::endgroup::"
         
