@@ -5,7 +5,7 @@ on: ['push']
 jobs:
   webflow-cmd:
       runs-on: ubuntu-latest 
-      steps:
+      step:
          -name: "group messages"
          run: |
           echo: "::group::My group Messages"
